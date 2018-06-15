@@ -1,0 +1,241 @@
+.box{
+    background-color: #3498db;
+    height: 420px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    animation:bganimate 18s linear infinite;
+
+
+    
+    
+}
+.box .tree{
+    position: absolute;
+   height:100%;
+    width: 100%;
+}
+
+.box .tree.tree1{
+    background: url("Images/tree1.png");
+    background-repeat: repeat-x;
+    margin-top: 54px;
+    z-index: 3;
+    animation:animate 23s linear infinite;
+}
+
+.box .tree.tree2{
+   background: url("Images/tree2.png");
+    background-repeat: repeat-x; 
+    margin-top: 50px;
+    z-index: 2;
+    animation:animate 29s linear infinite;
+}
+
+.box .tree.tree3{
+     background: url("Images/tree3.png");
+    background-repeat: repeat-x;
+    margin-top: 50px;
+    z-index: 1;
+    animation:animate 33s linear infinite;
+}
+
+.box .tree.snow{
+     background: url("Images/snow.png");
+    background-repeat: repeat-y;
+    margin-top: 34px;
+    z-index: 1;
+    animation:ani 10s linear infinite;
+    
+}
+
+@keyframes animate{
+    
+    0%{
+        background-position: 0 0;
+        
+    }
+    
+    100%{
+        background-position: 1406px 0;
+        color:brown;
+    }
+    
+}
+
+
+
+@keyframes animate{
+    
+    0%{
+        background-position: 0 0;
+        
+    }
+    
+    100%{
+        background-position: 1406px 0;
+    }
+    
+}
+
+
+
+@keyframes animate{
+    
+    0%{
+        background-position: 0 0;
+        
+    }
+    
+    100%{
+        background-position: 1406px 0;
+    }
+    
+}
+
+@keyframes ani{
+    
+    0%{
+        background-position: 0 0;
+        
+    }
+    
+    100%{
+        background-position: 0 768px;
+    }
+    
+}
+
+
+@keyframes bganimate{
+    
+    0%{
+        background-color: aqua;
+    }
+    
+    
+    10%{
+        background-color: coral;
+    }
+    
+     20%{
+        background-color:#1abc9c;
+    }
+    
+     30%{
+        background-color: #2ecc71;
+    }
+    
+     40%{
+        background-color: #3498db;
+    }
+    
+     50%{
+        background-color: #9b59b6;
+    }
+     60%{
+        background-color: #34495e;
+    }
+     70%{
+        background-color: #f1c40f;
+    }
+     80%{
+        background-color: #e67e22;
+    }
+     90%{
+        background-color: #e74c3c;
+    }
+     100%{
+        background-color: #95a5a6;
+    }
+    
+}
+
+
+h1{
+    font-size: 5em;
+    animation: coloranimate 18s linear infinite;
+/*    font-family: 'Permanent Marker', cursive;*/
+    font-family: 'Ravi Prakash', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top: 60px;
+}
+
+@keyframes coloranimate{
+    
+    0%{
+        color: aqua;
+    }
+    
+    
+    10%{
+        color: coral;
+    }
+    
+     20%{
+        color:#1abc9c;
+    }
+    
+     30%{
+        color: #2ecc71;
+    }
+    
+     40%{
+        color: #3498db;
+    }
+    
+     50%{
+        color: #9b59b6;
+    }
+     60%{
+        color: #34495e;
+    }
+     70%{
+        color: #f1c40f;
+    }
+     80%{
+        color: #e67e22;
+    }
+     90%{
+        color: #e74c3c;
+    }
+     100%{
+        color: #95a5a6;
+    }
+    
+}
+
+.col-md-4{
+    padding-left: 160px;
+    animation: aniimg 12s linear infinite;
+}
+
+.col-md-8{
+    padding-left: 12pxpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
